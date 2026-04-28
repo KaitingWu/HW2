@@ -2,6 +2,12 @@
 
 這是一個基於 Python 與 Streamlit 建立的互動式氣象儀表板。專案透過氣象署 (CWA) 開放資料 API 抓取台灣各分區（北部、中部、南部、東北部、東部、東南部）的一週氣溫預報，並將數據儲存為 CSV 與 SQLite 資料庫。最後透過 Streamlit 搭配 Folium 動態地圖呈現直觀的視覺化結果。
 
+## 📸 畫面截圖 (Screenshots)
+
+![天氣demo](天氣demo.PNG)
+
+![天氣demo2](天氣demo2.PNG)
+
 ## ✨ 專案特色 (Features)
 
 - **自動化資料獲取**：使用 `requests` 向 CWA API (F-A0010-001) 取得最新氣象 JSON 資料。
